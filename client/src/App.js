@@ -14,7 +14,7 @@ function App() {
     console.log('working');
    
     try {
-      const response = await axios.post('http://localhost:8080/user/register', {
+      const response = await axios.post('/user/register', {
         name
       })
 
