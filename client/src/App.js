@@ -14,7 +14,7 @@ function App() {
     console.log('working');
    
     try {
-      const response = await axios.post('/user/register', {
+      const response = await axios.post('/api/user/register', {
         name
       })
 
